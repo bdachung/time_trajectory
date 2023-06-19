@@ -1,0 +1,158 @@
+/* CSS */
+#matrixInputBtn, #metadataInputBtn {
+  background-color: #3954a3;
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#matrixInputBtn:before, #metadataInputBtn:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+#matrixInputBtn:hover, #metadataInputBtn:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  #matrixInputBtn, #metadataInputBtn {
+    padding: 16px 48px;
+  }
+}
+
+/* CSS */
+#startBtn {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+#startBtn:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+#startBtn:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+#startBtn:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+/* CSS */
+#downloadMatrixBtn, #downloadMetadataBtn {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #2f80ed;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 75px;
+}
+
+#downloadMatrixBtn:hover, #downloadMetadataBtn:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+#downloadMatrixBtn:hover, #downloadMetadataBtn:hover:after {
+  opacity: .5;
+}
+
+#downloadMatrixBtn:hover, #downloadMetadataBtn:active {
+  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+#downloadMatrixBtn:hover, #downloadMetadataBtn:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  #downloadMatrixBtn, #downloadMetadataBtn {
+    padding: 14px 22px;
+    width: 176px;
+  }
+}
+
