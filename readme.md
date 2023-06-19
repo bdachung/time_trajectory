@@ -1,6 +1,6 @@
 Time trajectory inference web application - supported by scDHA package
 
-To use, please install python and R. Here we installed python3.9 and R
+To use, please install python and R. Here we installed python 3.9 and R 4.3.0
 
 After installing python, run the following command to install necessary modules:
 
