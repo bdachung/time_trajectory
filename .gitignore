@@ -3,4 +3,6 @@ plot1.R
 plot.png
 built_in
 uploaded_files/*
+!uploaded_files/goolam_matrix.tsv
+!uploaded_files/goolam_metadata.tsv
 segerstolpe.tsv
