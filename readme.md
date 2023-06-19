@@ -4,7 +4,7 @@ To use, please install python and R. Here we installed python 3.9 and R 4.3.0
 
 After installing python, run the following command to install necessary modules:
 
-    pip install -r requirements\.txt
+    pip install -r requirements.txt
 
 After install R, please install the following packages:
 
