@@ -290,6 +290,14 @@
                 xhr.send(payloadString);
             }
             else{
+                if (selectedDataset !== 'None'){
+                    var choice = confirm("You are uploading a matrix and selecting a built-in dataset. We will use your matrix. Do you want to continue?");
+
+                    if (!choice){
+                        return ;
+                    }
+                }
+
                 var startBtn = document.getElementById("startBtn");
                 var span = startBtn.querySelectorAll("span")[0];
                 var spin = document.getElementById("spin");
